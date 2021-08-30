@@ -1,17 +1,24 @@
 import React from "react";
 import Project from './Project';
 import Example from '../images/logo192.png';
+import Note from '../images/note-takr.png';
+import Password from '../images/password-gen.gif';
+import goodvice from '../images/The GoodVice Blog.gif';
+import KaraOk from '../images/The Kara-OK Corral.gif';
 
 function Projects() {
     const data = [
-        {title: 'abc-placeholder', image: Example, link: 'abc-link-placeholder'},
-        {title: 'abc-placeholder', image: Example, link: 'abc-link-placeholder'},
-        {title: 'abc-placeholder', image: Example, link: 'abc-link-placeholder'}
+        {title: 'note-takr', image: Note, link: 'https://github.com/renusushmak/note-takr', dlink: 'https://note-takr-krs.herokuapp.com/notes'},
+        {title: 'password generator', image: Password, link: 'https://github.com/renusushmak/password-generator-js', dlink: 'https://renusushmak.github.io/password-generator-js/'},
+        {title: 'seo optimization', image: Example, link: 'https://github.com/renusushmak/seo-optimization-krs ', dlink: 'https://renusushmak.github.io/seo-optimization-krs/ '},
+        {title: 'sqlize-ecommBE', image: Example, link: 'https://github.com/renusushmak/sqlize-ecommBE', dlink: 'deployed-link'},
+        {title: 'goodvice-blog', image: goodvice, link: 'https://github.com/crossigarcia/the-goodvice-blog', dlink: 'https://the-goodvice-blog.herokuapp.com/'},
+        {title: 'Kara-OK-Corral', image: KaraOk, link: 'https://github.com/costanza13/kara-ok-corral', dlink: 'https://the-kara-ok-corral.herokuapp.com/'}
     ];
     return(
         <div>
             {data.map(proj => (
-            <Project title={proj.title} image={proj.image} link={proj.link}/>
+            <Project title={proj.title} image={proj.image} link={proj.link} dlink={proj.dlink}/>
             ))}
         </div>
     )
