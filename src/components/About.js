@@ -2,7 +2,10 @@ import React from "react";
 
 function About() {
     return(
-      <h1>About</h1>
+      <div>
+        <h1>About</h1>
+        <hr id="header" width="1250" size="5" color="DodgerBlue"></hr>
+      </div>
     )
 }
 

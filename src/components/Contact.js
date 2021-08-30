@@ -8,7 +8,6 @@ function Contact() {
         <pre><strong><big>Work Email:</big></strong></pre>ren.sushmak@gmail.com
         <pre><strong><big>Email to Stay Connected:</big></strong></pre>sushmakr533@gmail.com
         <pre><strong><big>Phone:</big></strong></pre>1-800-800-8000
-        <hr id="header" width="1250" size="1" color="DodgerBlue" noshade></hr>
       </div>
     )
 }

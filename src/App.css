@@ -100,3 +100,19 @@ div.content {
     float: none;
   }
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: DodgerBlue;
+  margin: 500px;
+  padding: 30px;
+  font-size: 1.0em;
+  align-self: flex-end;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
