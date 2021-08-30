@@ -17,9 +17,12 @@ function Projects() {
     ];
     return(
         <div>
+            <h1>Projects Portfolio</h1>
+            <hr id="header" width="1250" size="5" color="DodgerBlue"></hr>
             {data.map(proj => (
             <Project title={proj.title} image={proj.image} link={proj.link} dlink={proj.dlink}/>
             ))}
+             <hr id="header" width="1250" size="1" color="DodgerBlue" noshade></hr>
         </div>
     )
 }
