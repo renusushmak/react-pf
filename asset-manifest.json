@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-pf/static/css/main.5c47346f.chunk.css",
-    "main.js": "/react-pf/static/js/main.df882c6f.chunk.js",
-    "main.js.map": "/react-pf/static/js/main.df882c6f.chunk.js.map",
+    "main.css": "/react-pf/static/css/main.e51e6690.chunk.css",
+    "main.js": "/react-pf/static/js/main.1e558bb9.chunk.js",
+    "main.js.map": "/react-pf/static/js/main.1e558bb9.chunk.js.map",
     "runtime-main.js": "/react-pf/static/js/runtime-main.c8b207af.js",
     "runtime-main.js.map": "/react-pf/static/js/runtime-main.c8b207af.js.map",
     "static/js/2.2165ec07.chunk.js": "/react-pf/static/js/2.2165ec07.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.ae693249.chunk.js": "/react-pf/static/js/3.ae693249.chunk.js",
     "static/js/3.ae693249.chunk.js.map": "/react-pf/static/js/3.ae693249.chunk.js.map",
     "index.html": "/react-pf/index.html",
-    "static/css/main.5c47346f.chunk.css.map": "/react-pf/static/css/main.5c47346f.chunk.css.map",
+    "static/css/main.e51e6690.chunk.css.map": "/react-pf/static/css/main.e51e6690.chunk.css.map",
     "static/js/2.2165ec07.chunk.js.LICENSE.txt": "/react-pf/static/js/2.2165ec07.chunk.js.LICENSE.txt",
+    "static/media/Renu-CV.91089609.pdf": "/react-pf/static/media/Renu-CV.91089609.pdf",
     "static/media/The GoodVice Blog.40db0b6e.gif": "/react-pf/static/media/The GoodVice Blog.40db0b6e.gif",
-    "static/media/The Kara-OK Corral.aef25285.gif": "/react-pf/static/media/The Kara-OK Corral.aef25285.gif",
     "static/media/me.e6ec0451.jpeg": "/react-pf/static/media/me.e6ec0451.jpeg",
     "static/media/note-takr.5c9780fc.png": "/react-pf/static/media/note-takr.5c9780fc.png",
     "static/media/password-gen.e871c1b8.gif": "/react-pf/static/media/password-gen.e871c1b8.gif"
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.c8b207af.js",
     "static/js/2.2165ec07.chunk.js",
-    "static/css/main.5c47346f.chunk.css",
-    "static/js/main.df882c6f.chunk.js"
+    "static/css/main.e51e6690.chunk.css",
+    "static/js/main.1e558bb9.chunk.js"
   ]
 }
