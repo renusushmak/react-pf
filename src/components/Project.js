@@ -5,10 +5,10 @@ function Project({title, image, link, dlink}) {
       <div  class="flex-container">
         <h2>{title}</h2>
         <img src = {image}></img>
-        <a href = {link}>Github link</a><br></br>
+        <a href = {link}>Github link</a>
         <a href = {dlink}>Deployed link</a>
       </div>
     )
 }
-
+//remove line breaks and see
 export default Project;

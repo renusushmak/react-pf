@@ -1,0 +1,14 @@
+added css styling, flex box, sidenav for responsive
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   src/App.css
+#	modified:   src/components/About.js
+#	modified:   src/components/Contact.js
+#	modified:   src/components/Project.js
+#	modified:   src/components/Projects.js
+#

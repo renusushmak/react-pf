@@ -6,6 +6,7 @@ import Password from '../images/password-gen.gif';
 import goodvice from '../images/The GoodVice Blog.gif';
 import KaraOk from '../images/The Kara-OK Corral.gif';
 
+
 function Projects() {
     const data = [
         {title: 'Kara-OK-Corral', image: KaraOk, link: 'https://github.com/costanza13/kara-ok-corral', dlink: 'https://the-kara-ok-corral.herokuapp.com/'},

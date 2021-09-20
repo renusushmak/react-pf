@@ -2,12 +2,12 @@ import React from "react";
 
 function NavBar({setPage, pages}) {
     return(
-      <ul class="sidenav">
-        <li onClick = {()=> setPage(pages[0])}>About</li>
-        <li onClick = {()=> setPage(pages[1])}>Projects</li>
-        <li onClick = {()=> setPage(pages[2])}>Contact</li>
-        <li>Resume</li>
-      </ul>
+      <div class="topnav">
+        <p onClick = {()=> setPage(pages[0])}>About</p>
+        <p onClick = {()=> setPage(pages[1])}>Projects</p>
+        <p onClick = {()=> setPage(pages[2])}>Contact</p>
+        <p>Resume</p>
+      </div>
     )
 }
 
