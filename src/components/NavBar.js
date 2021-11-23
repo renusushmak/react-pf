@@ -4,8 +4,8 @@ function NavBar({setPage, pages}) {
     return(
       <div>
             <title>Renu portfolio</title>
-      <br></br><h1 class="caption1"> Renu Sushma Kolli</h1>
-      <ul class="navlist">
+      <br></br><h1 className="caption1"> Renu Sushma Kolli</h1>
+      <ul className="navlist">
         <li onClick = {()=> setPage(pages[0])}>About</li>
         <li onClick = {()=> setPage(pages[1])}>Projects</li>
         <li onClick = {()=> setPage(pages[2])}>Contact</li>

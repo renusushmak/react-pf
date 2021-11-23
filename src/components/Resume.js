@@ -15,7 +15,7 @@ function Resume() {
           <br></br>
           <a href="https://www.linkedin.com/in/renu-k/">My LinkedIn</a>
         </div>
-        <p className="homesection">
+        <div className="homesection">
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -28,7 +28,7 @@ function Resume() {
                 <li>MySQL</li>
                 <li>Mongoose</li>
             </ul>
-        </p>
+        </div>
       </div>
 </div>
 <div className="col-md-3"></div>
