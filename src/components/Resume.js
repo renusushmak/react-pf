@@ -3,7 +3,11 @@ import MyResume from '../downloads/Renu-CV.pdf';
 
 function Resume() {
     return(
-      <div>
+
+<div className="row" >
+<div className="col-md-3"></div>
+<div className="col-md-6">
+<div className="resume">
         <h1>Resume and LinkedIn</h1>
         <hr className="hr-line"></hr>
         <div className="App-link">
@@ -11,8 +15,8 @@ function Resume() {
           <br></br>
           <a href="https://www.linkedin.com/in/renu-k/">My LinkedIn</a>
         </div>
-          <ul>
-          <h3>Skills used in Projects</h3>
+        <p className="homesection">
+            <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>React</li>
@@ -23,8 +27,12 @@ function Resume() {
                 <li>MongoDB</li>
                 <li>MySQL</li>
                 <li>Mongoose</li>
-          </ul>
+            </ul>
+        </p>
       </div>
+</div>
+<div className="col-md-3"></div>
+</div>
     )
 }
 

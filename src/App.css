@@ -43,15 +43,43 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.homesection ul{
+  list-style-type: circle;
+}
+
+.homesection li{
+  text-align: left;
 }
 
 .card{
   box-shadow: 0 4px 8px 0 #b7dd0c;
   transition: 0.3s;
-  padding: 12px 18px;
   border-radius: 5px 5px 0 0;
+  
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 tan;
+}
+
+.contactpf {
+  font: 30px solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #b7dd0c;
+}
+
+.contactpf td{
+text-align: left;
+white-space: nowrap;
+margin: 15px;
+
+}
+.conVal{
+  padding-left: 10px;
+}
+.resume{
+ text-align: left;
+  
 }

@@ -9,10 +9,20 @@ function About() {
         <img src={profilepic} className="App-profilepic" alt="Renu Sushma Kolli" />
         <div>
         <p className="homesection">
-            Detail-oriented and an adaptable SDET with over 9 years of experience. 
-            Experienced in UI automation and building BE api's. 
-            Experienced in sharing stability and health check reports 
-            Experienced in Back-end api's monitoring and database validation testing.
+            <ul>
+              <li>
+              Detail-oriented and an adaptable SDET with over 9 years of experience. 
+              </li>
+              <li>
+              Experienced in UI automation and building BE api's.
+              </li>
+              <li>
+              Experienced in sharing stability and health check reports 
+              </li>
+              <li>
+              Experienced in Back-end api's monitoring and database validation testing.
+              </li>
+            </ul>
         </p>
         </div>
       </div>
